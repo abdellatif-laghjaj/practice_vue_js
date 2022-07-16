@@ -1,5 +1,8 @@
 <template>
-    <div class="about"></div>
+    <div class="about">
+        <h1>{{ pageName }}</h1>
+        <p>{{ pageDescription }}</p>
+    </div>
 </template>
 
 <script>
@@ -10,7 +13,7 @@ export default {
         return {
             pageName: "About Us",
             pageDescription:
-                "I'm Abdellatif Laghjaj a full stack developer from Morocco.",
+                "Hello World! I'm Andellatif Laghjaj a full stack developer from Morocco",
         };
     },
 };
