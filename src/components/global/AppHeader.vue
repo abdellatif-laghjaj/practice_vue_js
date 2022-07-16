@@ -10,8 +10,11 @@
             <router-link to="/about" tag="li">
                 <a>About</a>
             </router-link>
-            <router-link to="/help" tag="li" replace>
+            <router-link to="/help" tag="li">
                 <a>Help</a>
+            </router-link>
+            <router-link to="/contact" tag="li" replace>
+                <a>Contact</a>
             </router-link>
         </ul>
     </div>
