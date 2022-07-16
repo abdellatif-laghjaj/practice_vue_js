@@ -9,13 +9,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./scss/style.scss";
 import "normalize.css";
 
+import "./filters";
+
 Vue.config.productionTip = false;
-
-//make uppercase filter
-Vue.filter("uppercase", (v) => v.toUpperCase());
-
-//make reverse filter
-Vue.filter("reverse", (v) => v.split("").reverse().join(""));
 
 new Vue({
     router,
