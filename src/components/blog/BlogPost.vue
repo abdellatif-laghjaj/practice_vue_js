@@ -3,6 +3,9 @@
         <div class="post-views btn btn-info text-white">
             <span>Views <span class="badge bg-warning">4</span></span>
         </div>
+        <div class="post-image">
+            <img src="https://source.unsplash.com/random" alt="post image" />
+        </div>
         <h1 class="post-title">Blog post title</h1>
         <span class="post-date">Posted: 11/08/2022</span>
         <p class="post-content">
@@ -15,7 +18,7 @@
                     >@Author</span
                 >
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 text-end">
                 <span class="badge rounded-pill bg-danger post-category"
                     >Category</span
                 >
@@ -44,6 +47,12 @@ export default {
         position: absolute;
         top: 6px;
         right: 6px;
+    }
+    .post-image img {
+        border-radius: 10px;
+        object-fit: cover;
+        width: 100%;
+        height: 200px;
     }
     .post-title {
         font-weight: bold;
