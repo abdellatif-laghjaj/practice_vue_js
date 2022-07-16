@@ -8,7 +8,7 @@
         <div class="post-image">
             <img :src="image" alt="post image" />
         </div>
-        <h1 class="post-title">{{ title }}</h1>
+        <h1 class="post-title">{{ title | uppercase | reverse }}</h1>
         <span class="post-date">Posted: 11/08/2022</span>
         <p class="post-content">
             {{ content }}
