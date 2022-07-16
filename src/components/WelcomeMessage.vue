@@ -10,9 +10,10 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+$font_size: 60px;
 h1 {
     color: aqua;
-    font-size: 40px;
+    font-size: $font_size;
 }
 </style>
