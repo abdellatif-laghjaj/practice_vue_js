@@ -7,14 +7,14 @@
 </template>
 
 <script>
-    import AppHeader from "@components/global/AppHeader.vue";
-
-    export default{
+    export default {
         name: 'App',
         components: {
             AppHeader,
-        }
-    }
+        },
+    };
+
+    import AppHeader from './components/global/AppHeader.vue';
 </script>
 
 <style lang="scss">
