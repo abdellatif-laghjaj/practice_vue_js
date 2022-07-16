@@ -33,7 +33,7 @@
         overflow: hidden;
 
         .logo{
-            font-size: 30px;
+            font-size: 24px;
             width: 200px;
             padding: 20px;
             float: left;
@@ -42,6 +42,7 @@
         ul{
             float: right;
             width: calc(100% - 200px);
+            margin: 0;
 
             li{
                 padding: 20px;
