@@ -11,7 +11,7 @@
         <h1 class="post-title">{{ title | uppercase | reverse }}</h1>
         <span class="post-date">Posted: 11/08/2022</span>
         <p class="post-content">
-            {{ content }}
+            {{ content | shortenText }}
         </p>
         <div class="row post-cat-auth">
             <div class="col-sm-6">
