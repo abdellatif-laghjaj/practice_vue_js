@@ -1,5 +1,7 @@
 <template>
-    <div v-font="90" class="sidebar-widgets">{{ text | uppercase }}</div>
+    <div v-format.bold.orange="60" class="sidebar-widgets">
+        {{ text | uppercase }}
+    </div>
 </template>
 
 <script>

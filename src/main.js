@@ -10,15 +10,9 @@ import "./scss/style.scss";
 import "normalize.css";
 
 import "./filters";
+import "./directives";
 
 Vue.config.productionTip = false;
-
-//make custom directive to change font size
-Vue.directive("font", {
-    bind: (el, binding) => {
-        el.style.fontSize = binding.value + "px";
-    },
-});
 
 new Vue({
     router,

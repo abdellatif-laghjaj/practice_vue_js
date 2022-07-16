@@ -1,6 +1,6 @@
 <template>
     <div class="about">
-        <h1>{{ pageName }}</h1>
+        <h1 v-format.orange>{{ pageName }}</h1>
         <p>{{ pageDescription }}</p>
         <div class="container">
             <div
