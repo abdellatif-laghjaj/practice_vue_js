@@ -14,7 +14,9 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="sidebae"></div>
+                    <div class="sidebar">
+                        <BlogSideBar />
+                    </div>
                 </div>
             </div>
         </div>
@@ -23,6 +25,7 @@
 
 <script>
 import BlogPost from "@/components/blog/BlogPost";
+import BlogSideBar from "@/components/blog/BlogSideBar";
 
 export default {
     name: "BlogsView",
@@ -33,8 +36,9 @@ export default {
         };
     },
     components: {
-        // eslint-disable-next-line vue/no-unused-components
+        /* eslint-disable */
         BlogPost,
+        BlogSideBar,
     },
 };
 </script>
