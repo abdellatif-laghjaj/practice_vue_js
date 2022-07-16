@@ -1,8 +1,6 @@
 <template>
     <div class="header">
-        <div class="logo">
-            Abdel<spna>.</spna>
-        </div>
+        <div class="logo">Abdel<span>.</span></div>
         <ul>
             <router-link to="/" tag="li" exact>
                 <a>Home</a>
@@ -21,40 +19,39 @@
 </template>
 
 <script>
-    export default{
-        name: 'AppHeader',
-    }
+export default {
+    name: "AppHeader",
+};
 </script>
 
 <style lang="scss" scoped>
-    .header{
-        background-color: #333;
-        color: #fff;
-        overflow: hidden;
+.header {
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
 
-        .logo{
-            font-size: 24px;
-            width: 200px;
+    .logo {
+        font-size: 24px;
+        width: 200px;
+        padding: 20px;
+        float: left;
+    }
+
+    ul {
+        float: right;
+        width: calc(100% - 200px);
+        margin: 0;
+
+        li {
             padding: 20px;
-            float: left;
-        }
+            display: inline-block;
+            font-size: 18px;
 
-        ul{
-            float: right;
-            width: calc(100% - 200px);
-            margin: 0;
-
-            li{
-                padding: 20px;
-                display: inline-block;
-                font-size: 18px;
-
-                a{
-                    color: white;
-                    text-decoration: none;
-                }
+            a {
+                color: white;
+                text-decoration: none;
             }
         }
     }
+}
 </style>
-

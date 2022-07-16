@@ -14,7 +14,7 @@ export default {
     },
 };
 
-import AppHeader from "/components/global/AppHeader.vue";
+import AppHeader from "@/components/global/AppHeader.vue";
 </script>
 
 <style lang="scss">
