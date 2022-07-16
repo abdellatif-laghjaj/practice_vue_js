@@ -1,20 +1,22 @@
 <template>
     <div class="header">
-        <div class="logo">Abdel<span>.</span></div>
-        <ul>
-            <router-link to="/" tag="li" exact>
-                <a>Home</a>
-            </router-link>
-            <router-link to="/blogs" tag="li">
-                <a>Blogs</a>
-            </router-link>
-            <router-link to="/about" tag="li">
-                <a>About</a>
-            </router-link>
-            <router-link to="/help" tag="li">
-                <a>Help</a>
-            </router-link>
-        </ul>
+        <div class="container">
+            <div class="logo">Abdel<span>.</span></div>
+            <ul class="text-end">
+                <router-link to="/" tag="li" exact>
+                    <a>Home</a>
+                </router-link>
+                <router-link to="/blogs" tag="li">
+                    <a>Blogs</a>
+                </router-link>
+                <router-link to="/about" tag="li">
+                    <a>About</a>
+                </router-link>
+                <router-link to="/help" tag="li">
+                    <a>Help</a>
+                </router-link>
+            </ul>
+        </div>
     </div>
 </template>
 
