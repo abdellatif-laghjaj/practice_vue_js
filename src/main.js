@@ -3,13 +3,13 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
-import './scss/style.scss';
-import 'normalize.css';
+import "./scss/style.scss";
+import "normalize.css";
 
 Vue.config.productionTip = false;
 
 new Vue({
-  router,
-  store,
-  render: (createElement) => createElement(App),
+    router,
+    store,
+    render: (createElement) => createElement(App),
 }).$mount("#app");
